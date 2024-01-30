@@ -1,0 +1,10 @@
+Authentication with connection with sql server MS       x
+Grid view with react to show top 10 records with asynchronous updates without updating the page (possibly js-ajax?)     x
+Dashboard page from Crown (the Outlook one)?        x
+Have a Menu bar to organise everything?        x
+Use Map to show a route taken by a user     x
+Use some ORM (we have already used that)        x
+Deploy the breast cancer model developed earlier in masters (using cnn ai vg16)     x
+Real time charts        x
+Deploy to E2C Amazon        x
+
