@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Jobs List</title>
+</head>
+<body>
+    <h1>Live Jobs</h1>
+    <ul>
+        {% for job in livejobs %}
+            <li>{{ job.AccountName }} - {{ job.Status }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

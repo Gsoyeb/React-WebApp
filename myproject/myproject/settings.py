@@ -76,12 +76,36 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'sql_server.pyodbc',
+#         'NAME': 'Company',  # Your database name
+#         'HOST': 'GSOYEB',  # Your server name
+#         'PORT': '',  # Optional, use if not the default port
+
+#         'OPTIONS': {
+#             'driver': 'ODBC Driver 17 for SQL Server',
+#             'Trusted_Connection': 'yes',
+#             # If you have issues with the default settings,
+#             # you might need to specify the following as well:
+#             # 'extra_params': 'Integrated Security=SSPI;'
+#         },
+#     },
+# }
+
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'reactproject',
+        'USER': 'root',
+        'PASSWORD': '0331701594',
+        'HOST': 'localhost',    # Or your MySQL server's IP address
+        'PORT': '3306',         # MySQL's default port is 3306
     }
 }
+    
+
 
 
 # Password validation
